@@ -2,22 +2,23 @@
 
 
 ## Usage
-1. **Open the Script in Google Colab**:
+1. **Open the Script in Google Colab**
+   -# [!](https://colab.research.google.com/github/vadigr123/colab-testing/blob/main/Downloader-gpt.ipynb)
 
-2. **Configure Settings**:
+3. **Configure Settings**:
    - `search_url`: Paste the URL with the tags you want to search (e.g., `https://e621.net/posts?tags=hug`).
    - `max_images`: Set the maximum number of images to download. (use `-1` for all image)
    - `include_gif_video`: Set to `True` to include GIFs, WebM, and MP4 files (default is `False`).
    - `save_path`: Define the folder where images will be saved (e.g., `/content/e621_test_2`).
 
-3. **Run the Script**:
+4. **Run the Script**:
    - Execute the cell in Colab.
    - The script will:
      - Fetch posts based on the tags.
      - Download the specified number of images.
      - Create a ZIP file and trigger an automatic download.
 
-4. **Example**:
+5. **Example**:
    ```python
    search_url = "https://e621.net/posts?tags=hug"
    max_images = 10
@@ -30,16 +31,17 @@
 
 ## Usage
 #### Downloading Files
-1. **Open the Script in Google Colab**:
-2. **Configure Settings**:
+1. **Open the Script in Google Colab**
+      -# [!](https://colab.research.google.com/github/vadigr123/colab-testing/blob/main/sender-gpt.ipynb)
+3. **Configure Settings**:
    - `urls`: Enter one or more URLs separated by commas (e.g., `http://example.com/file1.zip, http://example.com/file2.zip`).
    - `download_folder`: Define the folder where files will be saved (e.g., `/content/downloads`).
 
-3. **Run the Script**:
+4. **Run the Script**:
    - Execute the cell.
    - The script will download each file to the specified folder and print a confirmation (e.g., `✅ Downloaded: filename`).
 
-4. **Example**:
+5. **Example**:
    ```python
    urls = "https://example.com/test.safetensors"
    download_folder = "/content/downloads"
