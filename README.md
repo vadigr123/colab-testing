@@ -26,12 +26,6 @@
    ```
 ---
 
-## Notes
-- **API Limits**: Each platform allows a maximum of 320 posts per API request. The script handles pagination automatically.
-- **File Formats**: By default, only `jpg`, `jpeg`, and `png` are downloaded. Enable `include_gif_video` for additional formats.
-- **Errors**: The script includes basic error handling for API failures, JSON parsing issues, and download errors.
-
-
 # > File Downloader and Uploader
 
 ## Usage
@@ -77,8 +71,13 @@
 
 ---
 
-## Notes
+## Notes (File Downloader and Uploader)
 - **URL Format**: Ensure URLs are valid and accessible. The script uses `wget` for downloads.
 - **Hugging Face**: Requires a valid API token with write access to the repository.
 - **GitHub**: Requires a Personal Access Token with `repo` scope.
 - **Error Handling**: The script assumes basic functionality; add error handling for production use (e.g., checking if URLs are valid or if files already exist).
+
+## Notes (Image Downloader for e621, e926, and Danbooru)
+- **API Limits**: Each platform allows a maximum of 320 posts per API request. The script handles pagination automatically.
+- **File Formats**: By default, only `jpg`, `jpeg`, and `png` are downloaded. Enable `include_gif_video` for additional formats.
+- **Errors**: The script includes basic error handling for API failures, JSON parsing issues, and download errors.
